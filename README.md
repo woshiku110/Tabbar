@@ -1,7 +1,7 @@
 # Tabbar
 自定义底部导航栏和其它布局，以及底部导航栏和viewpager相结合使用。
 # 主要用的BottomTabBar
-bottomtabbar里面可以放布局文件，如RelativeLayout,用户如果放入ViewPager，点击时会进行自动的切换。
+bottomtabbar里面可以放布局文件，如RelativeLayout,用户如果放入把RelativeLayout换成ViewPager，点击Item时会进行自动的切换。
 ```javascript
   <com.woshiku.bottomtabbarlib.BottomTabBar
         android:id="@+id/bottom_bar"
@@ -25,6 +25,18 @@ bottomtabbar里面可以放布局文件，如RelativeLayout,用户如果放入Vi
                 />
         </RelativeLayout>
     </com.woshiku.bottomtabbarlib.BottomTabBar>
+```
+```javascript
+        以下是通过代码来设置布局的方法，具体请参考MainActivity.java里面的用法
+        bottomTabBar.setTabIcons(tabIcons);//设置tab icons
+        bottomTabBar.setTabUnselectedColors(tabUnselectedColors); //设置tab 被选中的文本
+        bottomTabBar.setTabSelectedColors(tabSelectedColors);  //设置tab 未被选中的文本
+        bottomTabBar.setTitles(titles);//设置tab的文本
+        bottomTabBar.commit();//提交视图
+        bottomTabBar.setTabbarNews(1,true,6);//表示提醒的文本
+        bottomTabBar.setTabbarNews(2, false,-1);//表示提醒的点击
+        bottomTabBar.setTabbarNews(3,true,8); //设置第三个提醒文本
+        bottomTabBar.setTabbarNews(3,false,-1);//设置第三个提醒点
 ```
 ##有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
