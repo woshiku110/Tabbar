@@ -1,6 +1,7 @@
 # Tabbar
 自定义底部导航栏和其它布局，以及底部导航栏和viewpager相结合使用。
-#主要用的BottomTabBar   
+# 主要用的BottomTabBar
+bottomtabbar里面可以放布局文件，如RelativeLayout,用户如果放入ViewPager，点击时会进行自动的切换。
 ```javascript
   <com.woshiku.bottomtabbarlib.BottomTabBar
         android:id="@+id/bottom_bar"
@@ -25,3 +26,8 @@
         </RelativeLayout>
     </com.woshiku.bottomtabbarlib.BottomTabBar>
 ```
+##有问题反馈
+在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
+
+* 邮件(849383208@qq.com)
+* QQ: 849383208
