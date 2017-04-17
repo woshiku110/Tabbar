@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bottom_bar_line" type="id"/>
+    <item name="item_bottom_bar_image" type="id"/>
+    <item name="item_bottom_bar_txt" type="id"/>
+    <item name="item_bottom_bar_line" type="id"/>
+    <item name="item_bottom_bar_relate" type="id"/>
+    <item name="item_bottom_bar_txt_remind" type="id"/>
+    <item name="item_bottom_bar_point" type="id"/>
+    <item name="item_bottom_bar_cardview" type="id"/>
+</resources>

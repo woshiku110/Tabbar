@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomTabBar">
+        <attr name="tabBarHeight" format="dimension"/>
+        <attr name="tabBarBg" format="color"/>
+        <attr name="tabIconSize" format="dimension"/>
+        <attr name="tabMargin" format="dimension"/>
+        <attr name="tabRemindMargin" format="dimension"/>
+        <attr name="tabTextSize" format="integer"/>
+        <attr name="tab_remind_visible" format="boolean"/>
+    </declare-styleable>
+</resources>

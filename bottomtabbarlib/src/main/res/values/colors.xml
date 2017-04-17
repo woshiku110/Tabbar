@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tabbar_bg">@android:color/darker_gray</color>
+    <color name="test_color">#f00</color>
+    <color name="selector_txt_unselect">#6a6a6a</color>
+    <color name="selector_txt_selected">#3e95e0</color>
+    <color name="tab_line_color">#e2e2e2</color>
+</resources>
