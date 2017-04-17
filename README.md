@@ -33,6 +33,7 @@ bottomtabbar里面可以放布局文件，如RelativeLayout,用户如果放入�
         bottomTabBar.setTabSelectedColors(tabSelectedColors);  //设置tab 未被选中的文本
         bottomTabBar.setTitles(titles);//设置tab的文本
         bottomTabBar.commit();//提交视图
+        bottomTabBar.setTabbarNews(1,true,6);//第一个参数表示第几个索引 第二表示是否是文本提醒 第三个表示如果是文本提醒显示具体数量
         bottomTabBar.setTabbarNews(1,true,6);//表示提醒的文本
         bottomTabBar.setTabbarNews(2, false,-1);//表示提醒的点击
         bottomTabBar.setTabbarNews(3,true,8); //设置第三个提醒文本
@@ -43,3 +44,4 @@ bottomtabbar里面可以放布局文件，如RelativeLayout,用户如果放入�
 
 * 邮件(849383208@qq.com)
 * QQ: 849383208
+![图片展示](http://59.67.154.254:8080/images/icon_01.png)
